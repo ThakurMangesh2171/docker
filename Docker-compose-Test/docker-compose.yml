@@ -1,0 +1,13 @@
+  version: '3.7'
+  services:
+
+    app:
+      build: .
+    web:
+      image: "ntc_application_image"
+
+      
+    ubantu:
+      image: "myubuntuimage"
+ 
+

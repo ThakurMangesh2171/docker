@@ -1,0 +1,58 @@
+  version: '3.7'
+  services:
+    web:
+      image: "ntc_application_image"
+      ports:
+        - "9090:9090"  # Port mapping: host_port:container_port
+      networks:
+        - my_network
+      depends_on:
+        - ubantu
+      
+    ubantu:
+      image: "myubuntuimage"
+      networks:
+        - my_network
+    
+  networks:
+    my_network:
+      driver: bridge  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# services:
+#   web:
+#     image: "hello-java-docker"
+#     # here using Profiles to run container in the application, Oterwise it is in InActive Phase!!
+#     # profiles:
+#     #   - helloDocker
+#     ports:
+#       - "8000:90"
+
+# #  here in Tag thing we need to specify the variable in environmet file then it will excess the varible from .env file 
+#   ubantu:
+#     image: "myubuntuimage"
+
+
+# This is For Setting Db where it is need to specify the image and its environment like userName Password and dataBase
+  # db:
+  #   image: postgres:13
+  #   environment:
+  #     POSTGRES_USER: myuser
+  #     POSTGRES_PASSWORD: mypassword
+  #     POSTGRES_DB: mydatabase

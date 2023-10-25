@@ -1,0 +1,15 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¨ÓË
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş³¯Ğùÿÿÿÿ
+k	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó§¸ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø¬ıÇúÿÿÿÿ
+x	java:S116
+"cRename this field "is_volume_based_discount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¾½Ë
+m	java:S116"SRename this field "tier_uom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü·Îôÿÿÿÿÿ
+l	java:S116"WRename this field "volume_tiers" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ·êÛ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åıÒ¥şÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¨ÓË
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å‰ìÿıÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş³¯Ğùÿÿÿÿ
+h	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö–Ôúÿÿÿÿ
+h	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó§¸ùÿÿÿÿ
